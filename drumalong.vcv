@@ -650,33 +650,6 @@
       ]
     },
     {
-      "plugin": "Befaco",
-      "version": "0.6.0",
-      "model": "ABC",
-      "pos": [
-        0,
-        1
-      ],
-      "params": [
-        {
-          "paramId": 0,
-          "value": 0.0
-        },
-        {
-          "paramId": 1,
-          "value": 0.0
-        },
-        {
-          "paramId": 2,
-          "value": 0.0
-        },
-        {
-          "paramId": 3,
-          "value": 1.0
-        }
-      ]
-    },
-    {
       "plugin": "AudibleInstruments",
       "version": "0.6.0",
       "model": "Clouds",
@@ -988,7 +961,7 @@
         "b": 0.0823529437,
         "a": 1.0
       },
-      "outputModuleId": 10,
+      "outputModuleId": 9,
       "outputId": 0,
       "inputModuleId": 7,
       "inputId": 3
@@ -1000,7 +973,7 @@
         "b": 0.678431392,
         "a": 1.0
       },
-      "outputModuleId": 10,
+      "outputModuleId": 9,
       "outputId": 1,
       "inputModuleId": 8,
       "inputId": 3
@@ -1012,9 +985,9 @@
         "b": 0.278431386,
         "a": 1.0
       },
-      "outputModuleId": 11,
+      "outputModuleId": 10,
       "outputId": 3,
-      "inputModuleId": 10,
+      "inputModuleId": 9,
       "inputId": 6
     },
     {
@@ -1026,7 +999,7 @@
       },
       "outputModuleId": 4,
       "outputId": 1,
-      "inputModuleId": 10,
+      "inputModuleId": 9,
       "inputId": 1
     },
     {
@@ -1036,9 +1009,9 @@
         "b": 0.0823529437,
         "a": 1.0
       },
-      "outputModuleId": 12,
+      "outputModuleId": 11,
       "outputId": 0,
-      "inputModuleId": 11,
+      "inputModuleId": 10,
       "inputId": 7
     },
     {
@@ -1050,7 +1023,7 @@
       },
       "outputModuleId": 6,
       "outputId": 0,
-      "inputModuleId": 11,
+      "inputModuleId": 10,
       "inputId": 6
     },
     {
@@ -1062,7 +1035,7 @@
       },
       "outputModuleId": 4,
       "outputId": 3,
-      "inputModuleId": 12,
+      "inputModuleId": 11,
       "inputId": 2
     }
   ]
