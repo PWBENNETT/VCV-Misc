@@ -1092,23 +1092,23 @@
         },
         {
           "paramId": 2,
-          "value": 7.67997599
+          "value": 20.7299843
         },
         {
           "paramId": 3,
-          "value": 0.64200002
+          "value": 0.5
         },
         {
           "paramId": 4,
-          "value": 0.771500647
+          "value": 0.5
         },
         {
           "paramId": 5,
-          "value": 0.750500083
+          "value": 0.5
         },
         {
           "paramId": 6,
-          "value": 0.259999514
+          "value": 0.5
         },
         {
           "paramId": 7,
@@ -1970,18 +1970,6 @@
         "b": 0.054901965,
         "a": 1.0
       },
-      "outputModuleId": 18,
-      "outputId": 1,
-      "inputModuleId": 17,
-      "inputId": 7
-    },
-    {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.717647076,
-        "b": 0.054901965,
-        "a": 1.0
-      },
       "outputModuleId": 21,
       "outputId": 7,
       "inputModuleId": 17,
@@ -2250,6 +2238,18 @@
       "outputId": 0,
       "inputModuleId": 23,
       "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 18,
+      "outputId": 3,
+      "inputModuleId": 17,
+      "inputId": 7
     }
   ]
 }
