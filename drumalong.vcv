@@ -374,7 +374,7 @@
       ],
       "data": {
         "run": [
-          0
+          1
         ]
       }
     },
@@ -1311,33 +1311,6 @@
       ]
     },
     {
-      "plugin": "Befaco",
-      "version": "0.6.0",
-      "model": "ABC",
-      "pos": [
-        65,
-        3
-      ],
-      "params": [
-        {
-          "paramId": 0,
-          "value": 1.0
-        },
-        {
-          "paramId": 1,
-          "value": 1.0
-        },
-        {
-          "paramId": 2,
-          "value": 0.0
-        },
-        {
-          "paramId": 3,
-          "value": 0.0
-        }
-      ]
-    },
-    {
       "plugin": "TheXOR",
       "version": "0.6.2",
       "model": "M581",
@@ -1506,8 +1479,8 @@
       "version": "0.6.1",
       "model": "ScaleQuantizer2",
       "pos": [
-        51,
-        4
+        65,
+        3
       ],
       "params": [
         {
@@ -1771,8 +1744,8 @@
       },
       "outputModuleId": 6,
       "outputId": 0,
-      "inputModuleId": 22,
-      "inputId": 1
+      "inputModuleId": 23,
+      "inputId": 10
     },
     {
       "color": {
@@ -2215,7 +2188,7 @@
       },
       "outputModuleId": 21,
       "outputId": 0,
-      "inputModuleId": 23,
+      "inputModuleId": 22,
       "inputId": 1
     },
     {
@@ -2232,36 +2205,12 @@
     },
     {
       "color": {
-        "r": 0.0470588282,
-        "g": 0.556862772,
-        "b": 0.0823529437,
-        "a": 1.0
-      },
-      "outputModuleId": 23,
-      "outputId": 0,
-      "inputModuleId": 22,
-      "inputId": 2
-    },
-    {
-      "color": {
-        "r": 0.0352941193,
-        "g": 0.525490224,
-        "b": 0.678431392,
-        "a": 1.0
-      },
-      "outputModuleId": 22,
-      "outputId": 0,
-      "inputModuleId": 24,
-      "inputId": 0
-    },
-    {
-      "color": {
         "r": 0.788235366,
         "g": 0.717647076,
         "b": 0.054901965,
         "a": 1.0
       },
-      "outputModuleId": 24,
+      "outputModuleId": 23,
       "outputId": 0,
       "inputModuleId": 10,
       "inputId": 6
@@ -2287,6 +2236,18 @@
       },
       "outputModuleId": 21,
       "outputId": 1,
+      "inputModuleId": 22,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 22,
+      "outputId": 0,
       "inputModuleId": 23,
       "inputId": 0
     }
