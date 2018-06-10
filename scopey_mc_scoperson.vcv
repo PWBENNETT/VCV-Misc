@@ -27,7 +27,7 @@
       "version": "0.6.0",
       "model": "AudioInterface",
       "pos": [
-        71,
+        61,
         0
       ],
       "params": [],
@@ -47,7 +47,7 @@
       "version": "0.6.0",
       "model": "Scope",
       "pos": [
-        44,
+        34,
         0
       ],
       "params": [
@@ -94,7 +94,7 @@
       "version": "0.6.0",
       "model": "Kinks",
       "pos": [
-        40,
+        30,
         0
       ],
       "params": []
@@ -139,50 +139,11 @@
       ]
     },
     {
-      "plugin": "Fundamental",
-      "version": "0.6.0",
-      "model": "VCO",
-      "pos": [
-        18,
-        0
-      ],
-      "params": [
-        {
-          "paramId": 0,
-          "value": 0.0
-        },
-        {
-          "paramId": 1,
-          "value": 1.0
-        },
-        {
-          "paramId": 2,
-          "value": 0.0
-        },
-        {
-          "paramId": 3,
-          "value": 0.0
-        },
-        {
-          "paramId": 5,
-          "value": 0.5
-        },
-        {
-          "paramId": 4,
-          "value": 0.0
-        },
-        {
-          "paramId": 6,
-          "value": 0.0
-        }
-      ]
-    },
-    {
       "plugin": "SubmarineFree",
       "version": "0.6.3",
       "model": "XF-101",
       "pos": [
-        28,
+        18,
         0
       ],
       "params": [
@@ -205,7 +166,7 @@
       "version": "0.6.0",
       "model": "ADSR",
       "pos": [
-        63,
+        53,
         0
       ],
       "params": [
@@ -232,7 +193,7 @@
       "version": "0.6.0",
       "model": "VCA",
       "pos": [
-        57,
+        47,
         0
       ],
       "params": [
@@ -250,18 +211,6 @@
   "wires": [
     {
       "color": {
-        "r": 0.0470588282,
-        "g": 0.556862772,
-        "b": 0.0823529437,
-        "a": 1.0
-      },
-      "outputModuleId": 0,
-      "outputId": 0,
-      "inputModuleId": 4,
-      "inputId": 0
-    },
-    {
-      "color": {
         "r": 0.0352941193,
         "g": 0.525490224,
         "b": 0.678431392,
@@ -269,7 +218,7 @@
       },
       "outputModuleId": 0,
       "outputId": 0,
-      "inputModuleId": 5,
+      "inputModuleId": 4,
       "inputId": 0
     },
     {
@@ -291,9 +240,9 @@
         "b": 0.054901965,
         "a": 1.0
       },
-      "outputModuleId": 5,
+      "outputModuleId": 4,
       "outputId": 3,
-      "inputModuleId": 6,
+      "inputModuleId": 5,
       "inputId": 1
     },
     {
@@ -303,9 +252,9 @@
         "b": 0.278431386,
         "a": 1.0
       },
-      "outputModuleId": 6,
+      "outputModuleId": 5,
       "outputId": 0,
-      "inputModuleId": 8,
+      "inputModuleId": 7,
       "inputId": 2
     },
     {
@@ -317,7 +266,7 @@
       },
       "outputModuleId": 0,
       "outputId": 5,
-      "inputModuleId": 6,
+      "inputModuleId": 5,
       "inputId": 2
     },
     {
@@ -329,7 +278,7 @@
       },
       "outputModuleId": 0,
       "outputId": 1,
-      "inputModuleId": 7,
+      "inputModuleId": 6,
       "inputId": 4
     },
     {
@@ -339,7 +288,7 @@
         "b": 0.278431386,
         "a": 1.0
       },
-      "outputModuleId": 8,
+      "outputModuleId": 7,
       "outputId": 1,
       "inputModuleId": 1,
       "inputId": 0
@@ -351,7 +300,7 @@
         "b": 0.0823529437,
         "a": 1.0
       },
-      "outputModuleId": 8,
+      "outputModuleId": 7,
       "outputId": 1,
       "inputModuleId": 1,
       "inputId": 1
@@ -363,9 +312,9 @@
         "b": 0.678431392,
         "a": 1.0
       },
-      "outputModuleId": 7,
+      "outputModuleId": 6,
       "outputId": 0,
-      "inputModuleId": 8,
+      "inputModuleId": 7,
       "inputId": 0
     },
     {
@@ -377,7 +326,7 @@
       },
       "outputModuleId": 0,
       "outputId": 2,
-      "inputModuleId": 8,
+      "inputModuleId": 7,
       "inputId": 4
     },
     {
@@ -387,9 +336,9 @@
         "b": 0.278431386,
         "a": 1.0
       },
-      "outputModuleId": 8,
+      "outputModuleId": 7,
       "outputId": 0,
-      "inputModuleId": 8,
+      "inputModuleId": 7,
       "inputId": 5
     },
     {
@@ -399,7 +348,7 @@
         "b": 0.0823529437,
         "a": 1.0
       },
-      "outputModuleId": 5,
+      "outputModuleId": 4,
       "outputId": 3,
       "inputModuleId": 2,
       "inputId": 2
@@ -413,7 +362,7 @@
       },
       "outputModuleId": 3,
       "outputId": 0,
-      "inputModuleId": 6,
+      "inputModuleId": 5,
       "inputId": 0
     },
     {
@@ -423,22 +372,10 @@
         "b": 0.054901965,
         "a": 1.0
       },
-      "outputModuleId": 6,
+      "outputModuleId": 5,
       "outputId": 0,
       "inputModuleId": 2,
       "inputId": 1
-    },
-    {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.717647076,
-        "b": 0.054901965,
-        "a": 1.0
-      },
-      "outputModuleId": 5,
-      "outputId": 3,
-      "inputModuleId": 4,
-      "inputId": 3
     }
   ]
 }
