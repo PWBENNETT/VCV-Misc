@@ -374,11 +374,11 @@
         },
         {
           "paramId": 2,
-          "value": 2.86400151
+          "value": 1.05800116
         },
         {
           "paramId": 3,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "paramId": 5,
@@ -416,6 +416,27 @@
           "value": 0.0794999748
         }
       ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.0",
+      "model": "MIDIToCVInterface",
+      "pos": [
+        0,
+        1
+      ],
+      "params": [],
+      "data": {
+        "divisions": [
+          24,
+          6
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "nanoKEY2 1",
+          "channel": -1
+        }
+      }
     }
   ],
   "wires": [
@@ -622,6 +643,18 @@
       "outputId": 1,
       "inputModuleId": 4,
       "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 0
     }
   ]
 }
