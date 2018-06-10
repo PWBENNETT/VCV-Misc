@@ -47,7 +47,7 @@
       "version": "0.6.0",
       "model": "Kinks",
       "pos": [
-        30,
+        18,
         0
       ],
       "params": []
@@ -96,7 +96,7 @@
       "version": "0.6.3",
       "model": "XF-101",
       "pos": [
-        18,
+        22,
         0
       ],
       "params": [
@@ -171,7 +171,7 @@
       "params": [
         {
           "paramId": 0,
-          "value": 3.18779969
+          "value": 0.793501198
         },
         {
           "paramId": 1,
@@ -302,11 +302,11 @@
       "params": [
         {
           "paramId": 0,
-          "value": 0.0202500001
+          "value": 0.46844992
         },
         {
           "paramId": 1,
-          "value": 0.0
+          "value": 0.285000026
         },
         {
           "paramId": 2,
