@@ -47,7 +47,7 @@
       "version": "0.6.0",
       "model": "Kinks",
       "pos": [
-        18,
+        26,
         0
       ],
       "params": []
@@ -57,7 +57,7 @@
       "version": "0.6.0",
       "model": "VCO",
       "pos": [
-        8,
+        16,
         0
       ],
       "params": [
@@ -96,7 +96,7 @@
       "version": "0.6.3",
       "model": "XF-101",
       "pos": [
-        22,
+        30,
         0
       ],
       "params": [
@@ -119,7 +119,7 @@
       "version": "0.6.0",
       "model": "ADSR",
       "pos": [
-        34,
+        8,
         0
       ],
       "params": [
@@ -354,6 +354,68 @@
           false
         ]
       }
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.0",
+      "model": "LFO",
+      "pos": [
+        32,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 2,
+          "value": 2.86400151
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.5
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SlewLimiter",
+      "pos": [
+        42,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0854999423
+        },
+        {
+          "paramId": 2,
+          "value": 0.0794999748
+        }
+      ]
     }
   ],
   "wires": [
@@ -390,8 +452,8 @@
       },
       "outputModuleId": 3,
       "outputId": 3,
-      "inputModuleId": 4,
-      "inputId": 1
+      "inputModuleId": 6,
+      "inputId": 5
     },
     {
       "color": {
@@ -523,6 +585,42 @@
       "outputModuleId": 9,
       "outputId": 0,
       "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 10,
+      "outputId": 3,
+      "inputModuleId": 11,
+      "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 4,
       "inputId": 1
     }
   ]
