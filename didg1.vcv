@@ -27,7 +27,7 @@
       "version": "0.6.0",
       "model": "AudioInterface",
       "pos": [
-        68,
+        74,
         0
       ],
       "params": [],
@@ -175,7 +175,7 @@
         },
         {
           "paramId": 1,
-          "value": 4.5999999
+          "value": 3.62020183
         },
         {
           "paramId": 2,
@@ -322,6 +322,38 @@
           false
         ]
       }
+    },
+    {
+      "plugin": "AS",
+      "version": "0.6.8",
+      "model": "ReverbFx",
+      "pos": [
+        68,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.192200169
+        },
+        {
+          "paramId": 1,
+          "value": 0.226499975
+        },
+        {
+          "paramId": 2,
+          "value": 0.0329999998
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      }
     }
   ],
   "wires": [
@@ -399,18 +431,6 @@
     },
     {
       "color": {
-        "r": 0.0470588282,
-        "g": 0.556862772,
-        "b": 0.0823529437,
-        "a": 1.0
-      },
-      "outputModuleId": 7,
-      "outputId": 0,
-      "inputModuleId": 1,
-      "inputId": 1
-    },
-    {
-      "color": {
         "r": 0.0352941193,
         "g": 0.525490224,
         "b": 0.678431392,
@@ -478,8 +498,32 @@
       },
       "outputModuleId": 7,
       "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 9,
+      "outputId": 0,
       "inputModuleId": 1,
       "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0352941193,
+        "g": 0.525490224,
+        "b": 0.678431392,
+        "a": 1.0
+      },
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
     }
   ]
 }
