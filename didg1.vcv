@@ -152,11 +152,11 @@
       "params": [
         {
           "paramId": 0,
-          "value": 0.5
+          "value": 1.0
         },
         {
           "paramId": 1,
-          "value": 0.5
+          "value": 0.99849999
         }
       ]
     },
@@ -360,7 +360,7 @@
       "version": "0.6.0",
       "model": "LFO",
       "pos": [
-        32,
+        30,
         1
       ],
       "params": [
@@ -399,7 +399,7 @@
       "version": "0.6.0",
       "model": "SlewLimiter",
       "pos": [
-        42,
+        40,
         1
       ],
       "params": [
@@ -437,6 +437,43 @@
           "channel": -1
         }
       }
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "ABC",
+      "pos": [
+        46,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.318999857
+        },
+        {
+          "paramId": 1,
+          "value": 0.566999972
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Kinks",
+      "pos": [
+        52,
+        1
+      ],
+      "params": []
     }
   ],
   "wires": [
@@ -522,7 +559,7 @@
       "outputModuleId": 5,
       "outputId": 0,
       "inputModuleId": 6,
-      "inputId": 0
+      "inputId": 1
     },
     {
       "color": {
@@ -629,8 +666,8 @@
       },
       "outputModuleId": 11,
       "outputId": 0,
-      "inputModuleId": 6,
-      "inputId": 4
+      "inputModuleId": 13,
+      "inputId": 1
     },
     {
       "color": {
@@ -655,6 +692,42 @@
       "outputId": 0,
       "inputModuleId": 10,
       "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 13,
+      "inputId": 2
     }
   ]
 }
