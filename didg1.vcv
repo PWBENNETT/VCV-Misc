@@ -28,7 +28,7 @@
       "model": "AudioInterface",
       "pos": [
         74,
-        0
+        1
       ],
       "params": [],
       "data": {
@@ -47,7 +47,7 @@
       "version": "0.6.0",
       "model": "Kinks",
       "pos": [
-        26,
+        32,
         0
       ],
       "params": []
@@ -57,7 +57,7 @@
       "version": "0.6.0",
       "model": "VCO",
       "pos": [
-        16,
+        22,
         0
       ],
       "params": [
@@ -96,7 +96,7 @@
       "version": "0.6.3",
       "model": "XF-101",
       "pos": [
-        30,
+        36,
         0
       ],
       "params": [
@@ -146,7 +146,7 @@
       "version": "0.6.0",
       "model": "VCA",
       "pos": [
-        42,
+        48,
         0
       ],
       "params": [
@@ -166,7 +166,7 @@
       "model": "VoxInhumana",
       "pos": [
         54,
-        0
+        1
       ],
       "params": [
         {
@@ -296,7 +296,7 @@
       "version": "0.6.8",
       "model": "ReverbFx",
       "pos": [
-        48,
+        54,
         0
       ],
       "params": [
@@ -329,7 +329,7 @@
       "model": "ReverbFx",
       "pos": [
         68,
-        0
+        1
       ],
       "params": [
         {
@@ -360,7 +360,7 @@
       "version": "0.6.0",
       "model": "LFO",
       "pos": [
-        30,
+        28,
         1
       ],
       "params": [
@@ -374,7 +374,7 @@
         },
         {
           "paramId": 2,
-          "value": 1.05800116
+          "value": 1.75100148
         },
         {
           "paramId": 3,
@@ -399,7 +399,7 @@
       "version": "0.6.0",
       "model": "SlewLimiter",
       "pos": [
-        40,
+        38,
         1
       ],
       "params": [
@@ -443,7 +443,7 @@
       "version": "0.6.0",
       "model": "ABC",
       "pos": [
-        46,
+        44,
         1
       ],
       "params": [
@@ -470,10 +470,33 @@
       "version": "0.6.0",
       "model": "Kinks",
       "pos": [
-        52,
+        50,
         1
       ],
       "params": []
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SlewLimiter",
+      "pos": [
+        16,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 2,
+          "value": 1.0
+        }
+      ]
     }
   ],
   "wires": [
@@ -486,8 +509,8 @@
       },
       "outputModuleId": 0,
       "outputId": 0,
-      "inputModuleId": 3,
-      "inputId": 0
+      "inputModuleId": 15,
+      "inputId": 2
     },
     {
       "color": {
@@ -728,6 +751,18 @@
       "outputId": 2,
       "inputModuleId": 13,
       "inputId": 2
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
     }
   ]
 }
