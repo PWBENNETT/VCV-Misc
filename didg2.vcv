@@ -36,7 +36,7 @@
         },
         {
           "paramId": 1,
-          "value": 0.99849999
+          "value": 1.0
         }
       ]
     },
@@ -67,7 +67,7 @@
         },
         {
           "paramId": 4,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "paramId": 15,
@@ -87,7 +87,7 @@
         },
         {
           "paramId": 19,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "paramId": 5,
@@ -198,7 +198,7 @@
         },
         {
           "paramId": 4,
-          "value": 0.190499976
+          "value": 0.202499986
         },
         {
           "paramId": 5,
@@ -284,7 +284,7 @@
         },
         {
           "paramId": 6,
-          "value": 0.0
+          "value": -4.76999569
         },
         {
           "paramId": 7,
@@ -297,9 +297,9 @@
       }
     },
     {
-      "plugin": "Bogaudio",
-      "version": "0.6.6",
-      "model": "Bogaudio-Analyzer",
+      "plugin": "LOGinstruments",
+      "version": "0.6.0",
+      "model": "Speck",
       "pos": [
         51,
         0
@@ -307,21 +307,40 @@
       "params": [
         {
           "paramId": 0,
-          "value": 0.5
+          "value": -1.0
         },
         {
           "paramId": 1,
-          "value": 0.5
+          "value": 0.0
         },
         {
           "paramId": 2,
-          "value": 2.0
+          "value": -1.0
         },
         {
           "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
           "value": 1.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
         }
-      ]
+      ],
+      "data": {
+        "linLog": 1
+      }
     }
   ],
   "wires": [
@@ -483,37 +502,13 @@
     },
     {
       "color": {
-        "r": 0.0352941193,
-        "g": 0.525490224,
-        "b": 0.678431392,
-        "a": 1.0
-      },
-      "outputModuleId": 2,
-      "outputId": 0,
-      "inputModuleId": 6,
-      "inputId": 1
-    },
-    {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.0941176564,
-        "b": 0.278431386,
-        "a": 1.0
-      },
-      "outputModuleId": 3,
-      "outputId": 0,
-      "inputModuleId": 6,
-      "inputId": 3
-    },
-    {
-      "color": {
         "r": 0.0470588282,
         "g": 0.556862772,
         "b": 0.0823529437,
         "a": 1.0
       },
       "outputModuleId": 4,
-      "outputId": 15,
+      "outputId": 1,
       "inputModuleId": 3,
       "inputId": 1
     },
@@ -540,6 +535,42 @@
       "outputId": 7,
       "inputModuleId": 3,
       "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 4,
+      "outputId": 15,
+      "inputModuleId": 2,
+      "inputId": 5
     }
   ]
 }
