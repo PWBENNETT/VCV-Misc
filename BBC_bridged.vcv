@@ -972,6 +972,90 @@
       "outputId": 3,
       "inputModuleId": 15,
       "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 19,
+      "outputId": 4,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 20,
+      "outputId": 4,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 21,
+      "outputId": 4,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 19,
+      "outputId": 5,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 20,
+      "outputId": 5,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 21,
+      "outputId": 5,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 19,
+      "outputId": 6,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 20,
+      "outputId": 6,
+      "inputModuleId": 5,
+      "inputId": 2
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 21,
+      "outputId": 6,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 19,
+      "outputId": 7,
+      "inputModuleId": 2,
+      "inputId": 3
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 20,
+      "outputId": 7,
+      "inputModuleId": 5,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 21,
+      "outputId": 7,
+      "inputModuleId": 7,
+      "inputId": 3
     }
   ]
 }
