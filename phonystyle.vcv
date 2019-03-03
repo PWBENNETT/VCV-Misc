@@ -353,7 +353,7 @@
         },
         {
           "paramId": 2,
-          "value": 0.850000083
+          "value": 1.0
         },
         {
           "paramId": 3,
@@ -505,14 +505,14 @@
     {
       "color": "#0c8e15",
       "outputModuleId": 9,
-      "outputId": 0,
+      "outputId": 1,
       "inputModuleId": 8,
       "inputId": 2
     },
     {
       "color": "#0986ad",
       "outputModuleId": 9,
-      "outputId": 1,
+      "outputId": 0,
       "inputModuleId": 4,
       "inputId": 5
     },
@@ -522,20 +522,6 @@
       "outputId": 1,
       "inputModuleId": 10,
       "inputId": 0
-    },
-    {
-      "color": "#0c8e15",
-      "outputModuleId": 10,
-      "outputId": 0,
-      "inputModuleId": 9,
-      "inputId": 1
-    },
-    {
-      "color": "#0986ad",
-      "outputModuleId": 10,
-      "outputId": 1,
-      "inputModuleId": 9,
-      "inputId": 2
     },
     {
       "color": "#c91847",
@@ -753,6 +739,20 @@
       "outputId": 3,
       "inputModuleId": 8,
       "inputId": 7
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 1
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 10,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 2
     }
   ]
 }
